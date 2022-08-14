@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Halloween Event</title>
+    </head>
+    <body class="centered">
+
+        <header  class="centered large">
+        hello, homepage halloween what how
+        </header>
+
+        <h2 class="centered" id="important">
+            Visit <a href="route21.html">Route 21</a>
+        </h2>
+        <p>
+            Visit <a href="kyogre.html">Kyogre's Pearl</a>
+        </p>
+        <p>
+            Visit <a href="groudon.html">Groudon's Temple</a>
+        </p>
+
+        <img alt="Headquarters" src="ghostbustershq_color.gif">
+
+
+
+        <div class="container-fluid">
+
+            <ul class="m-3 nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://about.google/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://store.google.com/">Store</a>
+                </li>
+                <li class="nav-item ms-auto">
+                    <a class="nav-link text-dark" href="https://www.google.com/gmail/">Gmail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="https://www.google.com/imghp">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="https://accounts.google.com/ServiceLogin" role="button">Sign in</a>
+                </li>
+            </ul>
+
+            <div class="text-center">
+              <form action="https://www.google.com/search" class="mt-4" method="get">
+                  <input autocomplete="off" autofocus class="form-control form-control-lg mb-4 mx-auto w-50" name="q" placeholder="Query" type="search">
+                  <button class="btn btn-light" type="submit">Google Search</button>
+                  <button class="btn btn-light" name="btnI" type="submit">I'm Feeling Lucky</button>
+              </form>
+
+          </div>
+        </div>
+
+
+        <button id="red">R</button>
+        <button id="green">G</button>
+        <button id="blue">B</button>
+        <script>
+
+            let body = document.querySelector('body');
+            document.querySelector('#red').addEventListener('click', function()
+            {
+                body.style.backgroundColor = 'red';
+            });
+
+            document.querySelector('#green').addEventListener('click', function() {
+                body.style.backgroundColor = 'green';
+            });
+
+            document.querySelector('#blue').addEventListener('click', function() {
+                body.style.backgroundColor = 'blue';
+            });
+
+        </script>
+
+    </body>
+
+
+</html>

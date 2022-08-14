@@ -1,0 +1,82 @@
+<style>
+
+body
+{
+    font-size: larger;
+    text-align: center;
+
+}
+
+header
+{
+    font-size: larger;
+    text-align: center;
+    font-style: oblique;
+    font: italic bold 50px/100px Georgia, serif;
+}
+
+main
+{
+    font-size: medium;
+}
+
+footer
+{
+    font-size: small;
+}
+
+.centered
+{
+    text-align: center;
+}
+
+.large
+{
+    font-size: large;
+}
+
+.medium
+{
+    font-size: medium;
+}
+
+.small
+{
+    font-size: small;
+}
+
+
+p
+{
+    font-size: large;
+    text-align: center
+}
+
+p::first-letter
+{
+    font: italic small-caps bold 20px/50px Georgia, serif;
+}
+
+#important
+{
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+}
+
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+[id]
+{
+    font: italic small-caps bold 20px/50px Georgia, serif;
+
+}
+
+</style>
